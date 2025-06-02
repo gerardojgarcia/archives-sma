@@ -52,20 +52,11 @@ const pagesOpen = ref(false)
       <div class="px-2 pt-2 pb-3 space-y-1">
         <a href="#" class="block px-3 py-2 text-purple-600 font-medium">Home</a>
         <a href="#" class="block px-3 py-2 text-gray-700 hover:bg-gray-100 rounded-md">About Us</a>
-        <a href="#" class="block px-3 py-2 text-gray-700 hover:bg-gray-100 rounded-md">Services</a>
-        <a href="#" class="block px-3 py-2 text-gray-700 hover:bg-gray-100 rounded-md">Works</a>
+        <a href="#services" class="block px-3 py-2 text-gray-700 hover:bg-gray-100 rounded-md">Services</a>
+        <a href="#" class="block px-3 py-2 text-gray-700 hover:bg-gray-100 rounded-md">Projects</a>
         <div class="border-t border-gray-200"></div>
-        <button @click="pagesOpen = !pagesOpen" class="w-full text-left px-3 py-2 flex items-center text-gray-700 hover:bg-gray-100 rounded-md focus:outline-none">
-          <span>Pages</span>
-          <svg class="ml-auto h-4 w-4 transform" :class="{'rotate-180': pagesOpen}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-          </svg>
-        </button>
-        <div v-if="pagesOpen" class="pl-6 space-y-1">
-          <a href="#" class="block px-3 py-2 text-gray-700 hover:bg-gray-100 rounded-md">Page 1</a>
-          <a href="#" class="block px-3 py-2 text-gray-700 hover:bg-gray-100 rounded-md">Page 2</a>
-        </div>
-        <a href="#" class="block px-3 py-2 text-gray-700 hover:bg-gray-100 rounded-md">Pricing</a>
+
+
         <a href="#" class="block mt-2 px-3 py-2 bg-black text-white text-center rounded-full hover:bg-gray-800">Get Started +</a>
       </div>
     </div>

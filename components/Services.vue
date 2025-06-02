@@ -52,7 +52,7 @@ const services = [
 </script>
 
 <template>
-  <section class="py-16 bg-white">
+  <section class="py-16 bg-white" id="services">
     <div class="container mx-auto px-6 lg:px-8">
       <!-- Header -->
       <div class="flex justify-between items-center mb-8">
